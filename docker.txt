@@ -1,0 +1,4 @@
+docker build -t app .
+docker run -p 8888:8080 app
+docker tag app gcr.io/posty-373510/app
+docker push gcr.io/posty-373510/app
